@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "58177115469",
+    "firebase_url": "https://gamezone-108f6-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "gamezone-108f6",
+    "storage_bucket": "gamezone-108f6.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:58177115469:android:49f082b3a26119135d9304",
+        "android_client_info": {
+          "package_name": "com.example.gamezone"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC5-sa_qW139kS6q3yBgdqmmQSQIgoRxr8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

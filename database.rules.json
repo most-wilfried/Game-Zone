@@ -1,0 +1,31 @@
+{
+  "rules": {
+    ".read": "auth != null",
+    ".write": "auth != null",
+    "metadata": {
+      ".read": "auth != null",
+      ".write": "auth != null"
+    },
+    "app_users": {
+      ".indexOn": ["role", "email", "name"]
+    },
+    "stations": {
+      ".indexOn": ["name", "status", "reference"]
+    },
+    "sessions": {
+      ".indexOn": ["status", "started_at", "station_id"]
+    },
+    "inventory_items": {
+      ".indexOn": ["status", "assigned_station_id", "name", "reference"]
+    },
+    "sales": {
+      ".indexOn": ["created_at", "type"]
+    },
+    "players": {
+      ".indexOn": ["total_sessions", "name"]
+    },
+    "esp32_devices": {
+      ".indexOn": ["station_id", "state"]
+    }
+  }
+}

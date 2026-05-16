@@ -1,0 +1,25 @@
+{
+  "database": {
+    "rules": "database.rules.json"
+  },
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "gamezone-108f6",
+          "appId": "1:58177115469:android:49f082b3a26119135d9304",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "gamezone-108f6",
+          "configurations": {
+            "android": "1:58177115469:android:49f082b3a26119135d9304",
+            "web": "1:58177115469:web:313927249abbf6bd5d9304"
+          }
+        }
+      }
+    }
+  }
+}

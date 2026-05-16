@@ -1,0 +1,114 @@
+{
+  "app_settings": {
+    "1": {
+      "id": 1,
+      "base_price": 250,
+      "base_minutes": 40,
+      "bonus_gift_minutes": 40,
+      "tts_enabled": 1,
+      "voice_gender": "female"
+    }
+  },
+  "app_users": {
+    "1": {
+      "id": 1,
+      "name": "admin",
+      "email": "admin@gmail.com",
+      "password_hash": "sha256:fbcef4414f231ce2bb7df8955d70b67d6af9437eb4df803929f140c082cd14e8",
+      "role": "admin",
+      "is_active": 1,
+      "created_at": "2026-05-11T00:00:00.000"
+    },
+    "2": {
+      "id": 2,
+      "name": "gestionnaire",
+      "email": "manager",
+      "password_hash": "sha256:f2f120dab430b4dda16e6b7e659850a90a598ae88f7ca0a0a69fc3e05d9c9e82",
+      "role": "manager",
+      "is_active": 1,
+      "created_at": "2026-05-11T00:00:00.000"
+    }
+  },
+  "stations": {
+    "1": {
+      "id": 1,
+      "name": "Poste 1",
+      "reference": "A",
+      "console_type": "PS5",
+      "status": "libre",
+      "total_hours_used": 0
+    },
+    "2": {
+      "id": 2,
+      "name": "Poste 2",
+      "reference": "B",
+      "console_type": "PS5",
+      "status": "libre",
+      "total_hours_used": 0
+    },
+    "3": {
+      "id": 3,
+      "name": "Poste 3",
+      "reference": "C",
+      "console_type": "Xbox Series X",
+      "status": "libre",
+      "total_hours_used": 0
+    },
+    "4": {
+      "id": 4,
+      "name": "Poste 4",
+      "reference": "D",
+      "console_type": "PC Gaming",
+      "status": "libre",
+      "total_hours_used": 0
+    }
+  },
+  "esp32_devices": {
+    "station_1": {
+      "station_id": 1,
+      "station_name": "Poste 1",
+      "relay_pin": 25,
+      "led_pin": 2,
+      "state": "libre",
+      "command": "idle",
+      "updated_at": "2026-05-11T00:00:00.000"
+    },
+    "station_2": {
+      "station_id": 2,
+      "station_name": "Poste 2",
+      "relay_pin": 26,
+      "led_pin": 2,
+      "state": "libre",
+      "command": "idle",
+      "updated_at": "2026-05-11T00:00:00.000"
+    },
+    "station_3": {
+      "station_id": 3,
+      "station_name": "Poste 3",
+      "relay_pin": 27,
+      "led_pin": 2,
+      "state": "libre",
+      "command": "idle",
+      "updated_at": "2026-05-11T00:00:00.000"
+    },
+    "station_4": {
+      "station_id": 4,
+      "station_name": "Poste 4",
+      "relay_pin": 32,
+      "led_pin": 2,
+      "state": "libre",
+      "command": "idle",
+      "updated_at": "2026-05-11T00:00:00.000"
+    }
+  },
+  "metadata": {
+    "counters": {
+      "app_users": 2,
+      "stations": 4,
+      "sessions": 0,
+      "sales": 0,
+      "inventory_items": 0,
+      "players": 0
+    }
+  }
+}
